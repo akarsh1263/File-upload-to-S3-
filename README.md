@@ -102,3 +102,5 @@ To implement concurrency for processing large file uploads using goroutines, upl
 ## Rate limiting using Redis Cache
 The number of requests per user(tracked using their IP address) is stored in the redis cache which is reset every minute. If the limit is exceeded, server responds with an HTTP status 429 Too Many Requests.
 
+## Deployment on Render
+URL: `https://two1bce2661-backend.onrender.com`
